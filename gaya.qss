@@ -1,0 +1,42 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+QWidget {
+  background-color: #1e272e;
+}
+
+QListWidget {
+  color: #ffffff;
+  background-color: #2d3436;
+}
+
+QListWidget::item {
+  height: 50px;
+}
+
+QListWidget::item::selected {
+  background-color: #2abf9e;
+}
+
+QLabel {
+  background-color: #d2dae2;
+  qproperty-alignment: AlignCenter;
+}
+
+QPushButton {
+  background-color: #2abf9e;
+  padding: 20px;
+  font-size: 18px;
+}
+
+QScrollBar:vertical {
+  background-color: #2d3436;
+  width: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+  min-width: 0px;
+  background-color: #57606f;
+}
